@@ -1,0 +1,45 @@
+:root {
+    --primary-text-color:rgba(0, 0, 0, 0.25);
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color:#F5F5F5;
+}
+body {
+    background-color  #F5F5F5;
+}
+ul {
+    list-style: none;
+}
+ /* цвкт основного текста  #212121 */
+
+/* цвет вторичного текста   #757575  */
+
+ /* шапка страницы  #ECECEC */
+
+ /* акцент #2196F3 */
+
+.logo {
+      color:#000000;
+}
+.logo:hover {
+    color: #2196F3;
+}
+/* site nav Навигация*/
+
+.site-nav .link {
+      color: #2196F3;
+}
+/* sektion portfolio */
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #000000;
+}
+.section-title {
+    color:#212121 ;
+}
+/* button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-bg-color);
+}

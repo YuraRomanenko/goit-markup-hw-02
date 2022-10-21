@@ -5,7 +5,13 @@
     --primary-bg-color:#F5F5F5;
 }
 body {
-    background-color  #F5F5F5;
+    background-color:white;
+    font-family:"Open Sans",Verdana,sans-serif;
+}
+/* ---------header--------- */
+
+.nav .link {
+    color: #2196F3;
 }
 ul {
     list-style: none;
@@ -19,27 +25,51 @@ ul {
  /* акцент #2196F3 */
 
 .logo {
-      color:#000000;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+
 }
-.logo:hover {
-    color: #2196F3;
+.logo-header {
+    color:#000000;
+    ;
 }
 /* site nav Навигация*/
 
-.site-nav .link {
-      color: #2196F3;
-}
+
 /* sektion portfolio */
 
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: #000000;
 }
+
+/* Специализация */
+
+
+
+
 .section-title {
     color:#212121 ;
 }
+
+
 /* button */
-.button {
-    color: var(--title-text-color);
-    background-color: var(--primary-bg-color);
-}
+.button.hover{
+    color:  #FFFFFF;
+    background-color:#2196F3;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px; 
+  } 
+
+  .background {
+    color: #FFFFFF;
+    background-color:#2F303A;
+    background: clip 1600px;
+  }
